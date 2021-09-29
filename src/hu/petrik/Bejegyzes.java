@@ -43,6 +43,15 @@ public class Bejegyzes {
     public void like(){
         likeok++;
     }
+
+    @Override
+    public String toString() {
+        return
+                szerzo + " - " + likeok + letrejott+'\'' +
+                "Szerkesztve" + szerkesztve+ '\'' +
+                tartalom;
+
+    }
 }
 
 
